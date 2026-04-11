@@ -23,7 +23,6 @@ def statistique():
     lb_total_femelle.config(text=f"Total Femelle : {len(eleves) - nbre_male} ")
 def load_table() :
     effacer_table()
-    # remplir table par les éléves stockés dans la liste eleves
     for eleve in eleves:
         genre = "Male" if eleve.sexe == "m" else "Femelle"
         date_n = datetime.strftime(eleve.date_naissance, "%d/%m/%Y")
