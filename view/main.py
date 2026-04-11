@@ -12,7 +12,7 @@ def effacer() :
     sexe.set("m")
     e_nom.focus()
     e_dn.config(bg="blue")
-#effacer la table Treeview   de tkibnter
+    
 def effacer_table():
      for item in table.get_children():
          table.delete(item)
