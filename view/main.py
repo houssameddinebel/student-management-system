@@ -41,7 +41,6 @@ def ajouter_eleve():
       e=Eleve(nom.get(),datetime.strptime(dn.get(),"%d/%m/%Y"),sexe.get(),cb_ville.get())
       add_eleve(e)
       effacer()
-      #apple de la méthode de remplissage du table Treeview
       load_table()
       #appel de la méthode statistique
       statistique()
