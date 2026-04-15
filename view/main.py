@@ -4,7 +4,6 @@ from model.eleve import Eleve
 from controller.gerer_eleve import *
 from datetime import datetime
 
-#les méthodes
 def effacer() :
     nom.set("")
     dn.set("")
