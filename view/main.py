@@ -42,7 +42,6 @@ def ajouter_eleve():
       add_eleve(e)
       effacer()
       load_table()
-      #appel de la méthode statistique
       statistique()
     except ValueError:
       messagebox.showerror("Message erreur","La date naissance invalide\n"
@@ -59,7 +58,6 @@ def update():
           messagebox.showerror("Message erreur", "La date naissance invalide\n"
                                                  "Veuillez saisir la date sous forme dd/mm/yyyy")
       effacer()
-      # apple de la méthode de remplissage du table Treeview
       load_table()
       # appel de la méthode statistique
       statistique()
