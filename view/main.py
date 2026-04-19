@@ -59,7 +59,6 @@ def update():
                                                  "Veuillez saisir la date sous forme dd/mm/yyyy")
       effacer()
       load_table()
-      # appel de la méthode statistique
       statistique()
       code.set(0)
 
