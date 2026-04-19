@@ -138,7 +138,7 @@ table.heading("dn",text="Date Naissance")
 table.heading("sexe",text="Sexe")
 table.heading("ville",text="Ville Natale")
 
-#----------------------------------------
+
 table.column("code",width=100)
 table.column("nom",width=120)
 table.column("dn",width=100)
