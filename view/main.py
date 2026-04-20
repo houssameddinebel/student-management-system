@@ -85,7 +85,7 @@ code=tk.StringVar(value=0)
 nom=tk.StringVar()
 dn=tk.StringVar()
 sexe=tk.StringVar()
-#les widgets
+
 lb_fiche=tk.Label(root,text="Fiche Eléve ",bg="blue",fg="yellow",width=50)
 lb_fiche.place(x=100,y=10)
 #----------------------------------------------------------------------------
