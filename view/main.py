@@ -152,7 +152,7 @@ scroll_y.place(x=600,y=210,height=80)
 scroll_x.place(x=50,y=290,width=550)
 lb_total_eleve=tk.Label(root,text=f"Total eleve : {len(eleves)}")
 lb_total_eleve.place(x=200,y= 310)
-#variables nbre_male , nbre_femelle
+
 nbre_male=len(list(filter(lambda e:e.sexe == "m",eleves)))
 lb_total_male=tk.Label(root,text=f"Total Male : {nbre_male}")
 lb_total_male.place(x=200,y= 330)
