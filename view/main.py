@@ -80,7 +80,7 @@ def on_select(event):
 root=tk.Tk()
 root.title("Gestion des éléves")
 root.geometry("700x600")
-#les varaibles de travail
+
 code=tk.StringVar(value=0)
 nom=tk.StringVar()
 dn=tk.StringVar()
