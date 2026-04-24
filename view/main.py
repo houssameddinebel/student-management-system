@@ -76,7 +76,7 @@ def on_select(event):
         dn.set(values[2])
         sexe.set("m" if values[3] == "Male" else "f")
         cb_ville.set(values[4])
-#*------------------------------------------------
+
 root=tk.Tk()
 root.title("Gestion des éléves")
 root.geometry("700x600")
