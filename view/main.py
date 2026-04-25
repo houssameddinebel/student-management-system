@@ -130,7 +130,7 @@ bt_exit=tk.Button(root,text="Exit",bg="green",fg="yellow",width=10,command=quitt
 bt_exit.place(x=400,y=170)
 #-----------------------------------------------
 table=ttk.Treeview(root,columns=["code","nom","dn","sexe","ville"],show="headings",height=2)
-#-----------------------------afficher les entêtes
+
 table.heading("code",text="code Eléve")
 table.heading("nom",text="Nom & Prénom")
 table.heading("dn",text="Date Naissance")
