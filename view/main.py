@@ -113,7 +113,7 @@ lb_ville.place(x=20,y=130)
 cb_ville=ttk.Combobox(root,values=["Agadir","Tiznit","Ait Melloul","Ben sergaou","Inzegane","Autre"],state="readonly")
 cb_ville.place(x=130,y=130)
 cb_ville.set("Agadir")
-#------------------------------------------
+
 bt_add=tk.Button(root,text="Add",bg="green",fg="yellow",width=10,command=ajouter_eleve)
 bt_add.place(x=40,y=170)
 #------------------------------------------
