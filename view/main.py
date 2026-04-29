@@ -128,7 +128,7 @@ bt_update.place(x=310,y=170)
 #------------------------------------------
 bt_exit=tk.Button(root,text="Exit",bg="green",fg="yellow",width=10,command=quitter)
 bt_exit.place(x=400,y=170)
-#-----------------------------------------------
+
 table=ttk.Treeview(root,columns=["code","nom","dn","sexe","ville"],show="headings",height=2)
 
 table.heading("code",text="code Eléve")
