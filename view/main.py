@@ -116,7 +116,7 @@ cb_ville.set("Agadir")
 
 bt_add=tk.Button(root,text="Add",bg="green",fg="yellow",width=10,command=ajouter_eleve)
 bt_add.place(x=40,y=170)
-#------------------------------------------
+
 bt_clear=tk.Button(root,text="Clear",bg="green",fg="yellow",width=10,command=effacer)
 bt_clear.place(x=130,y=170)
 #------------------------------------------
