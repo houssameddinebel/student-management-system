@@ -93,7 +93,7 @@ lb_nom=tk.Label(root,text="Nom & Prénom : ",bg="blue",fg="yellow")
 lb_nom.place(x=20,y=40)
 e_nom=tk.Entry(root,textvariable=nom,bg="blue",fg="yellow")
 e_nom.place(x=130,y=40)
-#----------------------------------------------------------------------------
+
 lb_dn=tk.Label(root,text="Date Naissance : ",bg="blue",fg="yellow")
 lb_dn.place(x=20,y=70)
 e_dn=tk.Entry(root,textvariable=dn,bg="blue",fg="yellow")
