@@ -122,7 +122,7 @@ bt_clear.place(x=130,y=170)
 #------------------------------------------
 bt_delete=tk.Button(root,text="Delete",bg="green",fg="yellow",width=10,command=delete)
 bt_delete.place(x=220,y=170)
-#------------------------------------------
+
 bt_update=tk.Button(root,text="Update",bg="green",fg="yellow",width=10,command=update)
 bt_update.place(x=310,y=170)
 #------------------------------------------
