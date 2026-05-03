@@ -88,7 +88,7 @@ sexe=tk.StringVar()
 
 lb_fiche=tk.Label(root,text="Fiche Eléve ",bg="blue",fg="yellow",width=50)
 lb_fiche.place(x=100,y=10)
-#----------------------------------------------------------------------------
+
 lb_nom=tk.Label(root,text="Nom & Prénom : ",bg="blue",fg="yellow")
 lb_nom.place(x=20,y=40)
 e_nom=tk.Entry(root,textvariable=nom,bg="blue",fg="yellow")
