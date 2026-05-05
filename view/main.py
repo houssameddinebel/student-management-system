@@ -98,7 +98,7 @@ lb_dn=tk.Label(root,text="Date Naissance : ",bg="blue",fg="yellow")
 lb_dn.place(x=20,y=70)
 e_dn=tk.Entry(root,textvariable=dn,bg="blue",fg="yellow")
 e_dn.place(x=130,y=70)
-#----------------------------------------------------------------------------
+
 lb_sexe=tk.Label(root,text="Sexe Eléve : ",bg="blue",fg="yellow")
 lb_sexe.place(x=20,y=100)
 
