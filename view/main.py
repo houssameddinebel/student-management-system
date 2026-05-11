@@ -125,7 +125,7 @@ bt_delete.place(x=220,y=170)
 
 bt_update=tk.Button(root,text="Update",bg="green",fg="yellow",width=10,command=update)
 bt_update.place(x=310,y=170)
-#------------------------------------------
+
 bt_exit=tk.Button(root,text="Exit",bg="green",fg="yellow",width=10,command=quitter)
 bt_exit.place(x=400,y=170)
 
