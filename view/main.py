@@ -44,7 +44,7 @@ def ajouter_eleve():
       load_table()
       statistique()
     except ValueError:
-      messagebox.showerror("Message erreur","La date naissance invalide\n"
+      messagebox.showerror("Message erreur" , "La date naissance invalide\n"
                         "Veuillez saisir la date sous forme dd/mm/yyyy")
       dn.set("")
       e_dn.focus()
