@@ -107,7 +107,7 @@ rb_sexe1.place(x=130,y=100)
 rb_sexe2=tk.Radiobutton(root,text="Femelle",variable=sexe ,value="f")
 rb_sexe2.place(x=200,y=100)
 sexe.set("m")
-#----------------------------------------------------------------------------
+
 lb_ville=tk.Label(root,text="Ville Natale : ",bg="blue",fg="yellow")
 lb_ville.place(x=20,y=130)
 cb_ville=ttk.Combobox(root,values=["Agadir","Tiznit","Ait Melloul","Ben sergaou","Inzegane","Autre"],state="readonly")
