@@ -119,7 +119,7 @@ bt_add.place(x=40,y=170)
 
 bt_clear=tk.Button(root,text="Clear",bg="green",fg="yellow",width=10,command=effacer)
 bt_clear.place(x=130,y=170)
-#------------------------------------------
+
 bt_delete=tk.Button(root,text="Delete",bg="green",fg="yellow",width=10,command=delete)
 bt_delete.place(x=220,y=170)
 
